@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECO Familiar Ibagué</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="modern-header">
+        <nav class="nav-container">
+            <div class="logo-container">
+                <a href="index.html" class="logo-link">
+                    <img src="assets/logo.png" alt="Logo ECO Familiar" class="logo-img">
+                    <div class="church-name">
+                        <h1>ECO Familiar</h1>
+                        <p>Ibagué</p>
+                    </div>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="floating-clouds">
+                <div class="cloud cloud-1"></div>
+                <div class="cloud cloud-2"></div>
+                <div class="cloud cloud-3"></div>
+            </div>
+            <div class="hero-content">
+                <h1 class="hero-title">ECO Familiar Ibagué</h1>
+                <p class="hero-subtitle">"Porque donde están dos o tres congregados en mi nombre, allí estoy yo en medio de ellos" - Mateo 18:20</p>
+                <div class="hero-buttons">
+                    <a href="#encuentros" class="btn btn-primary">Nuestros Encuentros</a>
+                    <a href="#contacto" class="btn btn-secondary">Contáctanos</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="encuentros" class="encuentros-section">
+            <div class="section-header">
+                <h2>Nuestros Encuentros</h2>
+                <p>Encuentra tu lugar en nuestra comunidad</p>
+            </div>
+
+            <div class="encuentros-grid">
+                <article class="modern-card kids-card" onclick="navegarA('kids.html')">
+                    <div class="card-image">
+                        <img src="assets/kids.png" alt="Encuentro Kids">
+                        <div class="card-overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Encuentro Kids</h3>
+                        <p>Donde los niños conocen a Jesús de manera divertida</p>
+                        <button class="card-btn">
+                            <span>Explorar</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <article class="modern-card jovenes-peques-card" onclick="navegarA('jovenes-peques.html')">
+                    <div class="card-image">
+                        <img src="assets/jovenespe.png" alt="Jóvenes Mixtos Peques">
+                        <div class="card-overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Jóvenes Mixtos Peques</h3>
+                        <p>Creciendo juntos en fe y amistad</p>
+                        <button class="card-btn">
+                            <span>Explorar</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <article class="modern-card jovenes-grandes-card" onclick="navegarA('jovenes-grandes.html')">
+                    <div class="card-image">
+                        <img src="assets/jovenesadul.png" alt="Jóvenes Mixtos Grandes">
+                        <div class="card-overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Jóvenes Mixtos Grandes</h3>
+                        <p>Forjando líderes con propósito</p>
+                        <button class="card-btn">
+                            <span>Explorar</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <article class="modern-card hombres-card" onclick="navegarA('hombres.html')">
+                    <div class="card-image">
+                        <img src="assets/hombres.png" alt="Encuentro de Hombres">
+                        <div class="card-overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Encuentro de Hombres</h3>
+                        <p>Formando hombres de valor y propósito</p>
+                        <button class="card-btn">
+                            <span>Explorar</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <article class="modern-card damas-card" onclick="navegarA('damas.html')">
+                    <div class="card-image">
+                        <img src="assets/mujeres.png" alt="Encuentro de Damas">
+                        <div class="card-overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Encuentro de Damas</h3>
+                        <p>Mujeres de fe, gracia y propósito</p>
+                        <button class="card-btn">
+                            <span>Explorar</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="valores-section">
+            <div class="valores-content">
+                <h2>Nuestros Valores</h2>
+                <div class="valores-grid">
+                    <div class="valor-card">
+                        <i class="fas fa-heart"></i>
+                        <h3>Amor</h3>
+                        <p>El fundamento de nuestra comunidad</p>
+                    </div>
+                    <div class="valor-card">
+                        <i class="fas fa-hands-helping"></i>
+                        <h3>Servicio</h3>
+                        <p>Compartiendo el amor de Dios</p>
+                    </div>
+                    <div class="valor-card">
+                        <i class="fas fa-users"></i>
+                        <h3>Comunidad</h3>
+                        <p>Creciendo juntos en fe</p>
+                    </div>
+                    <div class="valor-card">
+                        <i class="fas fa-dove"></i>
+                        <h3>Paz</h3>
+                        <p>Encontrando descanso en Dios</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="modern-footer">
+        <div class="footer-content">
+            <div class="footer-main">
+                <div class="footer-info">
+                    <img src="assets/logo.png" alt="Logo ECO Familiar" class="footer-logo">
+                    <h3>ECO Familiar Ibagué</h3>
+                    <p>Transformando vidas, construyendo familias</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#encuentros">Encuentros</a></li>
+                        <li><a href="#valores">Valores</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contáctanos</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Dirección de la iglesia</p>
+                    <p><i class="fas fa-phone"></i> Teléfono de contacto</p>
+                    <p><i class="fas fa-envelope"></i> correo@ecofamiliar.com</p>
+                </div>
+                <div class="footer-social">
+                    <h4>Síguenos</h4>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2024 ECO Familiar Ibagué. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
